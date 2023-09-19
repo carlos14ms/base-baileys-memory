@@ -55,7 +55,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
             await gotoFlow(flowDespedida)  
             break
         case '2':
-            await flowDynamic('Ingresa al siguiente link: https://forms.office.com/r/ns4c84UKHL y diligencia el formulario! \nEstaremos revisando la información ')
+            await flowDynamic('Ingresa al siguiente link: https://forms.office.com/r/zr2byEZnsc y diligencia el formulario! \nEstaremos revisando la información ')
             await gotoFlow(flowDespedida)
             break
             
